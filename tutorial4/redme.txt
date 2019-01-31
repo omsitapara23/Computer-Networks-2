@@ -1,0 +1,11 @@
+delay    vs         number of packets        vs       time taken   
+0ms                      51                               13
+100ms                   1478                            10230
+200ms                   3258                            20498
+
+timeout = 50 ms
+
+loss     vs         number of packets        vs       time taken
+10                        68                            965
+20                        85                            1913    
+30                        95                            2489

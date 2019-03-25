@@ -1,0 +1,29 @@
+The first and second are for stop and wait protocol
+
+delay    vs         number of packets        vs       time taken   
+0ms                      51                               13
+100ms                   1478                            10230
+200ms                   3258                            20498
+
+timeout = 50 ms
+
+loss     vs         number of packets        vs       time taken
+10                        68                            965
+20                        85                            1913    
+30                        95                            2489
+
+
+
+The below two are for select activity
+
+delay    vs         number of packets        vs        time taken
+0ms                        51                              7
+100ms                      201                            1203
+200ms                      401                            2404
+
+timeout = 50ms && windowsize = 10
+
+loss      vs         number of packets        vs        time taken
+10                          63                              456
+20                          67                              658
+30                          70                              956
